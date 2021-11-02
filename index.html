@@ -10,17 +10,31 @@
 </head>
 <body>
     <div class="container">
+        <hr>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+              Display
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Email</a>
+              <a class="dropdown-item" href="#">Username</a>
+              <a class="dropdown-item" href="#">Name</a>
+            </div>
+        </div>
+        <hr>
+        
         <div class="parent-table">
             <table class="table table-hover table-dark">
                 <thead>
-                  <tr>
+                  <!-- <tr>
                     <th scope="col">#</th>
-                    <th scope="col">First</th>
+                    <th scope="col">Name</th>
                     <th scope="col">Last</th>
                     <th scope="col">Handle</th>
-                  </tr>
+                  </tr> -->
                 </thead>
-                <tbody>
+                <tbody class="table-body" >
                   <tr>
                     <th scope="row">1</th>
                     <td>Mark</td>
@@ -41,6 +55,7 @@
                 </tbody>
               </table>
         </div>
+        <script src="index.js"></script>
     </div>
 
 
